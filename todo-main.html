@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Todo List!</title>
+        <link href="todo-main.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>TODO List</h1>
+        <div id='controls'>
+            <input id="todo-item" type="text" placeholder="Enter the description of the item you want to add."/>
+            <button id="add-todo-item">Add Item</button>
+        </div>
+        <table id="active-items-table">
+            <thead>
+                <tr class="headings">
+                    <td colspan='3'>Active</td>
+                </tr>
+                <tr class='headings'>
+                    <td>S.No</td>
+                    <td>Description</td>
+                    <td>Action</td>
+                </tr>
+            </thead>
+            <tbody id='todo-view-table'></tbody>
+        </table>
+
+        <table id="completed-items-table">
+            <thead>
+                <tr class="headings">
+                    <td colspan='2'>Completed</td>
+                </tr>
+                <tr class='headings'>
+                    <td>S.No</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody id='completed-todo-view-table'></tbody>
+        </table>
+    </body>
+    <script src="todo-main.js"></script>
+</html>

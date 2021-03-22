@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(245, 243, 241);
+}
+
+h1 {
+    color: rgb(199, 121, 19);
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    padding: 20px;
+}
+#controls {
+    width: 70%;
+    padding: 1.5%;
+    margin: 20px 15%;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+#controls input#todo-item {
+    flex: 6;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+#controls button {
+    background: rgb(87, 50, 2);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+    box-shadow: 10px solid grey;
+}
+
+#controls button:active {
+    box-shadow: none;
+}
+
+table .headings {
+    background: rgb(241, 219, 191);
+}
+
+table .headings:first-child  {
+    background: burlywood;
+    font-weight: bold;
+}
+
+table {
+    width: 70%;
+    margin: 10px 15%;
+    border-radius: 5px;
+    text-align: center;
+    border: 0px;
+    border-collapse: collapse;
+}
+
+table td {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 2px;
+}
+
+table .action-buttons {
+    margin: 1.5%;
+    padding: 7px;
+    box-shadow: 0px solid black;
+    border-radius: 3px;
+}
+
+table .done-todo-item{
+    background: rgb(58, 168, 58);
+    color: white;
+}
+
+table .delete-todo-item{
+    background: rgb(235, 86, 86);
+    color: white;
+}
